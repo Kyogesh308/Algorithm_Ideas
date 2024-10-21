@@ -18,6 +18,9 @@ Algorithm Explanation
     - If arr[mid] < key, traverse backward from size-1 to i-quotient-1 and compare.
 5. Repeat steps 4 until the element is found.
 
+code: https://github.com/Kyogesh308/Algorithm_Ideas/blob/main/Yogesh%20variant%20Interpolation%20Search.c
+
+
 Time Complexity
 
 Average time complexity: O(log log n)
