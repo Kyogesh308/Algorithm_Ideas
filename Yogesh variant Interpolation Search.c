@@ -1,11 +1,8 @@
 //Yogesh's Interpolation Search
-
-
 #include <stdio.h>
 #define MAX 100
-
 // Yogesh Variant of Interpolation Search function
-int yogeshInterpolationSearch(int arr[], int size, int key) {
+int variantInterpolationSearch(int arr[], int size, int key) {
     int i, mid, diff, quotient;
 
     diff = arr[size - 1] - arr[0];
@@ -56,7 +53,7 @@ int main() {
     }
     printf("Enter the key value: ");
     scanf("%d", &key);
-    int result = yogeshInterpolationSearch(arr, size, key);
+    int result = variantInterpolationSearch(arr, size, key);
     if (result != -1) {
         printf("Element found at %d location.\n", result + 1);
     } else {
